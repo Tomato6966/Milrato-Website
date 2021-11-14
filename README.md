@@ -8,3 +8,9 @@
 > Then make sure to Credit: [Milrato Development](https://milrato.dev) and the [Discord Server](https://discord.gg/milrato)
 
 > © Milrato-Development 2018-2021
+
+# How does it look like?
+
+![Website GIf](https://dl.dropboxusercontent.com/s/hjm6mpg8ms4m754/tM3RiJ5D5T.mp4)
+
+> © Milrato-Development 2018-2021
