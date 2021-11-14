@@ -10,9 +10,6 @@
 > © Milrato-Development 2018-2021
 
 # How does it look like?
-<video controls>
-  <source src="https://dl.dropboxusercontent.com/s/hjm6mpg8ms4m754/tM3RiJ5D5T.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+https://dl.dropboxusercontent.com/s/hjm6mpg8ms4m754/tM3RiJ5D5T.mp4
 
 > © Milrato-Development 2018-2021
