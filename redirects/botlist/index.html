@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Milrato | Discord Bot List</title>
+        <!-- =============== EMBEDED MESSAGE =============== -->
+        <meta property="theme-color" content="#ffc900">
+        <meta name="og:title" content="Milrato | Discord Bot List" />
+        <meta name="og:url" content="https://milrato-botlist.eu">
+        <meta name="og:image"
+            content="https://cdn.discordapp.com/avatars/822105997438091314/cc8aae03f5ba359686041b3c746b8671.webp?size=1024">
+        <meta name="og:description" content="This is an awesome Discord Bot List, where you can add your Bots and gain Server Members and Members fast! Also you can add Discord Servers too! Gain Members, Gain Servers, Fast, Amazing, Great! Discord: https://discord.gg/FQGXbypRf8" />
+        <meta name="og:email" content="help@milrato.eu" />
+        <meta name="og:site_name" content="Milrato | Discord Bot List" />
+        <meta name="og:region" content="EU" />
+        <meta name="og:country-name" content="EU" />
+        <meta name="description" content="This is an awesome Discord Bot List, where you can add your Bots and gain Server Members and Members fast! Also you can add Discord Servers too! Gain Members, Gain Servers, Fast, Amazing, Great! Discord: https://discord.gg/FQGXbypRf8">
+        <meta name="author" content="Milrato Development">
+        <meta name="keywords" content="Bot List, Discord Bot List, Discord-Bot-List, Server List, Discord-Server, Bots, Bot, Discord Bots, Discord Bot, Fast Bots, Bot Pusher, Gain Servers, Gain Members, Bot Verify, Bot Certify, Verify, Certify, Discord, Insane"/>
+        <!-- ============ END OF EMBEDED MESSAGE ============ -->
+    </head>   
+    <body> 
+        <script>
+            l="https://botlist.milrato.eu"; 
+            window.onload=function(){};
+            var progval = 0; 
+            var myVar = setInterval(Prog, 30); 
+            function Prog()
+            {
+                progval++; 
+                document.getElementById("gg").innerHTML=progval + "%";
+                document.getElementById("g").value=progval; 
+                
+                if (progval==100){
+                    clearInterval(myVar); 
+                    setTimeout(Check, 100);
+                }
+            }
+            function Check(){
+                if (progval==100){
+                    clearInterval(myVar); 
+                      var ftimeout=setTimeout(null, 500); 
+                      var parameters=location.search.substring(1).split("&"); 
+                      var temp=parameters[0].split("="); 
+                      if (l=="undefined"){
+                          window.location="https://milrato.eu";
+                      }
+                      else{
+                          window.location=l;
+                      }
+                     }else{
+
+                     }
+            }
+        </script>
+        <div class="berohost">
+            <a target="_blank" href="http://bero-host.de/?utm_source=website&utm_medium=cpc&utm_id=milrato">
+            <h1>Sponsored by:<br/> <span>Bero-Host.de</span></h1>
+            <img src="https://cdn.bero-host.de/img/logo/bero_white.png"></a>
+        </div>
+        <div class="mainframe"> 
+            <div class="container"> 
+                <br/> <br/><br/> <br/> 
+                <div class="textframe"> 
+                    <h2 id="h">Redirecting</h2>
+                    <script>
+                        if (Math.random() >= 0.5) {
+                            document.getElementById("h").innerHTML="Redirecting";
+                        }else if (Math.random() <= 0.5 ){
+                            document.getElementById("h").innerHTML="Loading . . .";
+                        }
+                    </script> 
+                    <h3 id="gg">0%</h3> 
+                    <br/> <br/>
+                    <progress id="g" class="y" value="0" max="100" style="align-self:center; text-align:center;">
+                        <div class="progress-bar"> 
+                            <span style="width: 80%;">
+                                Progress: 80%
+                            </span> 
+                        </div>
+                    </progress> 
+                </div>
+            <br/> 
+        </div>
+        <div id="footerBar" style="display:none;font-family: Work Sans, sans-serif;font-size: 20px; overflow: hidden; background:#262731; padding: 3px 5px;">
+        <span style="float:right"> 
+        </span>
+        </div>
+    </body>
+</html>

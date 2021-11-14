@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        body {
+    font-size: 24px;
+    font-family: "Work Sans", sans-serif;
+    background-color: #262731
+}
+
+.berohost {
+    position: absolute;
+    right: 5%;
+    margin-top:  5%;
+    text-decoration: none;
+}
+.berohost h1 {
+    color: #fff4cc;
+}
+.berohost span {
+    color: #ffc900;
+}
+a {
+    text-decoration: none;
+}
+progress[value]::-webkit-progress-value::before {
+    content: '80%';
+    position: absolute;
+    right: 0;
+    top: -125%;
+}
+
+progress[value]::-webkit-progress-value::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    border-radius: 100%;
+    right: 7px;
+    top: 7px;
+    background-color: #262731;
+}
+
+progress {
+    -webkit-appearance: none;
+    appearance: none;
+    align-self: center;
+    text-align: center;
+    -webkit-animation: animate-stripes 5s linear infinite;
+    animation: animate-stripes 5s linear infinite;
+}
+
+#gg {
+    -webkit-appearance: none;
+    appearance: none;
+    align-self: center;
+    text-align: center;
+    color: #e2e1e1;
+    -webkit-animation: animate-stripes 5s linear infinite;
+    animation: animate-stripes 5s linear infinite;
+}
+
+progress[value] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 400px;
+    height: 75px;
+    border: solid 10px rgb(24, 23, 27);
+    box-shadow: 0 0 5px 5px rgb(24, 23, 27);
+    border-radius: 10px;
+    color: rgb(0, 255, 119);
+}
+
+progress[value]::-moz-progress-bar {
+    background-image: -moz-linear-gradient(135deg, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%), -moz-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25)), -moz-linear-gradient(left, rgb(255, 157, 0), rgb(0, 255, 119));
+    border-radius: 2px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: #1D1E28;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    background-image: -webkit-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%), -webkit-linear-gradient(top, rgba(255, 255, 255, .25), rgba(0, 0, 0, .25)), -webkit-linear-gradient(left, rgb(255, 157, 0), rgb(0, 255, 119));
+
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+@-webkit-keyframes animate-stripes {
+    100% {
+        background-position: -100px 0px;
+    }
+}
+
+@keyframes animate-stripes {
+    100% {
+        background-position: -100px 0px;
+    }
+}
+
+.progress-bar {
+    background-color: #262731;
+    border-radius: 2px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.25) inset;
+    width: 350px;
+    height: 50px;
+    position: relative;
+    display: block;
+}
+
+.progress-bar>span {
+    background-color: rgb(0, 255, 119);
+    border-radius: 2px;
+    display: block;
+    text-indent: -9999px;
+}
+h2 {
+    text-align:center; 
+    color: #f1f1f1
+}
+@media screen and (min-width: 480px) {
+    .mainframe {
+        padding-left: 50px;
+        padding-top: 40px;
+        padding-right: 225px;
+
+    }
+
+    .textframe {
+        padding-left: 10px;
+        padding-top: 20px;
+        padding-right: 2px;
+    }
+
+    .container {
+        border: none;
+        padding-left: 10px;
+        text-align:center;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+        position: center;
+        height: 400px;
+        width: 500px;
+        overflow: hidden;
+    }
+
+    .imgcontainer img {
+        height: 300px;
+        width: 500px;
+        -webkit-transition: all 5s ease;
+        -moz-transition: all 5s ease;
+        -ms-transition: all 5s ease;
+        transition: all 5s ease;
+    }
+
+    .imgcontainer img:hover {
+        width: 900px;
+        height: 700px;
+    }
+
+    h3 {
+        color: rgba(255, 255, 255, 0.685);
+        text-align: center;
+    }
+
+    h5 {
+
+        color: rgba(255, 255, 255, 0.685);
+        text-align: justify;
+    }
+
+    .mainframe {
+        padding-left: 150px;
+        padding-top: 40px;
+        padding-right: 425px;
+    }
+
+    .textframe {
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-right: 25px;
+    }
+
+    .container {
+        padding-left: 20px
+    }
+}</style>
+        <title>Milrato Redirect</title>
+    </head>
+    <body> 
+        <script>
+            l="https://milrato.eu"; 
+            window.onload=function(){};
+            var progval = 0; 
+            var myVar = setInterval(Prog, 50); 
+            function Prog()
+            {
+                progval++; 
+                document.getElementById("gg").innerHTML=progval + "%";
+                document.getElementById("g").value=progval; 
+                
+                if (progval==100){
+                    clearInterval(myVar); 
+                    setTimeout(Check, 200);
+                }
+            }
+            function Check(){
+                if (progval==100){
+                    clearInterval(myVar); 
+                      var ftimeout=setTimeout(null, 500); 
+                      var parameters=location.search.substring(1).split("&"); 
+                      var temp=parameters[0].split("="); 
+                      if (l=="undefined"){
+                          window.location="https://milrato.eu";
+                      }
+                      else{
+                          window.location=l;
+                      }
+                     }else{
+
+                     }
+            }
+        </script>
+        <div class="berohost">
+            <a target="_blank" href="http://bero-host.de/?utm_source=website&utm_medium=cpc&utm_id=milrato">
+            <h1>Sponsored by:<br/> <span>Bero-Host.de</span></h1>
+            <img src="https://cdn.bero-host.de/img/logo/bero_white.png"></a>
+        </div>
+        <div class="mainframe"> 
+            <div class="container"> 
+                <br/> <br/><br/> <br/> 
+                <div class="textframe"> 
+                    <h2 id="h">Redirecting</h2>
+                    <script>
+                        if (Math.random() >= 0.5) {
+                            document.getElementById("h").innerHTML="Redirecting";
+                        }else if (Math.random() <= 0.5 ){
+                            document.getElementById("h").innerHTML="Loading . . .";
+                        }
+                    </script> 
+                    <h3 id="gg">0%</h3> 
+                    <br/> <br/>
+                    <progress id="g" class="y" value="0" max="100" style="align-self:center; text-align:center;">
+                        <div class="progress-bar"> 
+                            <span style="width: 80%;">
+                                Progress: 80%
+                            </span> 
+                        </div>
+                    </progress> 
+                </div>
+            <br/> 
+        </div>
+        <div id="footerBar" style="display:none;font-family: Work Sans, sans-serif;font-size: 20px; overflow: hidden; background:#262731; padding: 3px 5px;">
+        <span style="float:right"> 
+        </span>
+        </div>
+    </body>
+</html>

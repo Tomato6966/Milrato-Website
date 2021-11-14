@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Milrato Redirect</title>
+    </head>
+    <body> 
+        <script>
+            l="https://www.twitter.com/milratodev"; 
+            window.onload=function(){};
+            var progval = 0; 
+            var myVar = setInterval(Prog, 50); 
+            function Prog()
+            {
+                progval++; 
+                document.getElementById("gg").innerHTML=progval + "%";
+                document.getElementById("g").value=progval; 
+                
+                if (progval==100){
+                    clearInterval(myVar); 
+                    setTimeout(Check, 200);
+                }
+            }
+            function Check(){
+                if (progval==100){
+                    clearInterval(myVar); 
+                      var ftimeout=setTimeout(null, 500); 
+                      var parameters=location.search.substring(1).split("&"); 
+                      var temp=parameters[0].split("="); 
+                      if (l=="undefined"){
+                          window.location="https://milrato.eu";
+                      }
+                      else{
+                          window.location=l;
+                      }
+                     }else{
+
+                     }
+            }
+        </script>
+        <div class="berohost">
+            <a target="_blank" href="http://bero-host.de/?utm_source=website&utm_medium=cpc&utm_id=milrato">
+            <h1>Sponsored by:<br/> <span>Bero-Host.de</span></h1>
+            <img src="https://cdn.bero-host.de/img/logo/bero_white.png"></a>
+        </div>
+        <div class="mainframe"> 
+            <div class="container"> 
+                <br/> <br/><br/> <br/> 
+                <div class="textframe"> 
+                    <h2 id="h">Redirecting</h2>
+                    <script>
+                        if (Math.random() >= 0.5) {
+                            document.getElementById("h").innerHTML="Redirecting";
+                        }else if (Math.random() <= 0.5 ){
+                            document.getElementById("h").innerHTML="Loading . . .";
+                        }
+                    </script> 
+                    <h3 id="gg">0%</h3> 
+                    <br/> <br/>
+                    <progress id="g" class="y" value="0" max="100" style="align-self:center; text-align:center;">
+                        <div class="progress-bar"> 
+                            <span style="width: 80%;">
+                                Progress: 80%
+                            </span> 
+                        </div>
+                    </progress> 
+                </div>
+            <br/> 
+        </div>
+        <div id="footerBar" style="display:none;font-family: Work Sans, sans-serif;font-size: 20px; overflow: hidden; background:#262731; padding: 3px 5px;">
+        <span style="float:right"> 
+        </span>
+        </div>
+    </body>
+</html>
