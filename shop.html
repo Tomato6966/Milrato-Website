@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Milrato Development</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="./assets/img/favicon.png" rel="icon">
+  <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  
+  <!-- Vendor CSS Files -->
+  <link href="./assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="./assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="./assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="./assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="./assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="./assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html"><span><img src="https://imgur.com/RcykDiA.png" style="height: 35px;margin-top:-1%;" > Milrato Development</span></a></h1>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto highlight2" href="index.html">Milrato Overview</a></li>
+          <li class="dropdown"><a><span>Navigation</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="nav-link scrollto active" href="#hero">Information</a></li>
+              <li><a class="nav-link scrollto" href="#features">Features</a></li>
+              <li><a class="nav-link scrollto" href="./index.html#bots">Our-Bots</a></li>
+              <li><a class="nav-link scrollto" href="./index.html#shopbots">Shop Bots Overview</a></li>
+              <li><a class="nav-link scrollto" href="./index.html#team">Team</a></li>
+              <li><a class="nav-link scrollto" href="./impressum.html">Legal Notice / Privacy Policy</a></li>
+              <li><a class="nav-link scrollto" href="#footer">Footer</a></li>
+              <li><a class="nav-link scrollto" href="https://dc.milrato.dev" target="_blank">Discord</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a><span>LINKS</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="./index.html" ><i class="bx bxs-shopping-bags"></i> Public Bots Overview</a></li>
+              <li><a href="./sponsors.html" ><i class="bx bx-gift"></i> Sponsors</a></li>
+              <li><a href="./donate.html"><i class="bx bx-donate-heart"></i> Donate us</a></li>
+              <li><a href="https://discord.milrato.eu/" target="_blank"><i class="bx bxl-discord"></i> Discord Server</a></li>
+              <li><a href="https://botlist.milrato.eu/" target="_blank"><i class="bx bx-list-plus"></i> Discord Bot-List</a></li>
+              <li><a href="https://botlist.milrato.eu/servers" target="_blank"><i class="bx bx-list-ol"></i> Discord Server-list</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto highlight" href="./shop.html">Get Free Discord Bots (SHOP)</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+          <div data-aos="zoom-out">
+            <h1><span>Milrato</span> Development</h1>
+              <h2>Our goal is to make Bots for everyone! If possible for free, that's why we provide the option to get bots via <b>INVITES</b> on our Discord Server as well as Discord Boosts and some little Donations! We also make <b>custom Bots</b> ofc. with Source Code!</h2>
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto">Get Started</a>
+              
+              <button type="red" onclick="window.open('https://dc.milrato.dev', '_blank')"><i class="bi bi-discord"></i> Discord</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+          <img src="./assets/img/hero-img.png" class="img-fluid animated" alt="" style="width: 100%">
+        </div>
+      </div>
+    </div>
+
+    <svg class="hero-waves" 
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(45,56,53, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(45,56,53, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#23272A">
+      </g>
+    </svg>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Our Bots to buy!</h2>
+          <p>Check out what type of bots - we are selling!</p>
+          <span><i style="padding-left: 10px;">On our Discord Server, we are selling Discord Bots for Invites (FREE) or for Donations (BOOSTS/PAYMENT) which supports us!</i></span>
+          <br><br>
+          <button type="green" onclick="window.open('https://dc.milrato.dev', '_blank')"><i class="bi bi-discord"></i> <b>Join the Discord</b> to get <b><u>free/cheap</u> (custom) Discord Bots</b></button>
+          <button type="red" onclick="window.open('https://dc.milrato.dev', '_blank')"><span class ="bx bx-stats"></span> <b>Check out the Feedbacks & Stats</b></button>
+        </div>
+
+        <div class="row" data-aos="fade-left">
+          <div >
+            <a href="#clanbots" >
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
+                <i class="ri-team-line" style="color: #ffbb2c;"></i>
+                <h3>Clan Bots&nbsp;&nbsp;<span style="font-style: italic;color:#808080;font-size: 14px;">Optimized for Clans with thousands of features! | [HOSTED/SRC] | See Prices & Features</span></h3>
+              </div>
+            </a>
+          </div>
+          <div >
+            <a href="./shop.html#musicbots" >
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                <i class="ri-music-line" style="color: #55ff71;"></i>
+                <h3>Music Bots&nbsp;&nbsp;<span style="font-style: italic;color:#808080;font-size: 14px;">Listen to Music, fast 24/7 and with High Quality! | [HOSTED/SRC] | See Prices & Features</span></h3>
+              </div>
+            </a>
+          </div>
+          <div >
+            <a href="./shop.html#rythmclones" >
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                <i class="ri-file-music-line" style="color: #5855ff;"></i>
+                <h3>Rythm Clones&nbsp;&nbsp;<span style="font-style: italic;color:#808080;font-size: 14px;">You just want a Rythm-Premium with your Logo? -> GET A PERFECT-CLONE | [HOSTED/SRC] | See Prices & Features</span></h3>
+              </div>
+            </a>
+          </div>
+          <div >
+            <a href="./shop.html#waitingroombots" >
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                <i class="ri-time-line" style="color: #e5ff55;"></i>
+                <h3>Waitingroom Bots&nbsp;&nbsp;<span style="font-style: italic;color:#808080;font-size: 14px;">Waitingroom Bots are like 24/7 Radio Bots, to play Music 24/7 in a Channel! | [HOSTED/SRC] | See Prices & Features</span></h3>
+              </div>
+            </a>
+          </div>
+          <div >
+            <a href="./shop.html#administrationbots" target="_blank">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="250">
+                <i class="ri-shield-cross-line" style="color: #ff4756;"></i>
+                <h3>Administration Bots&nbsp;&nbsp;<span style="font-style: italic;color:#808080;font-size: 14px;">The Bot with all Admin features, Ticket-, Application Systems and more! | [HOSTED/SRC] | See Prices & Features</span></h3>
+              </div>
+            </a>
+          </div>
+         
+          <div >
+            <a href="./shop.html#custombots" target="_blank">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="250">
+                <i class="ri-customer-service-line" style="color: #47ff9a;"></i>
+                <h3>Custom Bots&nbsp;&nbsp;<span style="font-style: italic;color:#808080;font-size: 14px;">Customized & Adjusted to your needs + Src | Custom Prices!</span></h3>
+              </div>
+            </a>
+          </div>
+         
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="clanbots" class="pricing">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Pricing - CLAN BOTS</h2>
+          <p><img src="https://cdn.discordapp.com/emojis/832697296687726654.png" style="width: 50px;" > Pricing - CLAN BOTS</p>
+        </div>
+
+        <section id="faq" class="faq section-bg" style="margin:0;padding:0;text-align: left!important;">
+          <div class="container" style="margin:0;padding:0;text-align: left!important">
+            <div class="faq-list" style="text-align: left!important">
+              <ul>
+                <li data-aos="fade-up"style="text-align: left!important">
+                  <i class="bx bx-help-circle icon-help"style="text-align: left!important"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-clanbot"style="text-align: left!important">What are the Features of a Clan Bot? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="faq-list-clanbot" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      
+<h4 style="font-size: large;">FEATURES</h4>
+The Whole Bots offers you more then <b>800 different Commands</b> (400 Slash Commands). <br>
+This includes over <b>150+ Administration and Setup Commands</b> 📛 💪 <br>
+With more then 60+ Music Commands, and 100+ Fun / Minigame Commands <br>
+<br>
+You can disable the Command Categories, and customice the whole Bot Design. <br>
+You can change the default Embed colors, images and texts, the botname, prefix, avatar and command texts (custom cmds, keywords, etc) <br>
+<br>
+You have a pretty secure partly Auto-Mod/Security System with the Captcha, antispam, anticaps and antilinks System! <br>
+Soon there will be more Security stuff <br>
+<br>
+<h4 style="font-size: large;">Cool Features:</h4>
+✔️ 5x Applications, with Reactions<br>
+✔️ 3x advanced Ticket Systems<br>
+✔️ Waitingroom feature!<br>
+✔️ Advanced, fast Music System<br>
+✔️ Custom Welcome & Leave Images <br>
+✔️ Advanced Join to Create System<br>
+&nbsp |-> With Voice-Manage-Commands<br>
+✔️ Automatic Roster Systems ...!<br>
+✔️ Social Logs <br>
+&nbsp |-> (YT, Twitch, Twitter, TikTok, ..)<br>
+<br>
+✔️ Multi Language Support<br>
+✔️ Latest Features (Threads, Stage Channels)<br>
+✔️ Slash Commands<br>
+<br>
+<br>
+<a href="https://youtu.be/E0R7d8gS908">Tutorial Video</a>
+
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <div class="row" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              <h3>Free (Invites) [CLAN BOT]</h3>
+              <h4><sup>Invites</sup>7<span> / Once</span><span style="font-size: 10px;"> + Keep them</span></h4>
+              <ul>
+                <li>All Features</li>
+                <li>24hrs delivery</li>
+                <li>Setup Guides</li>
+                <li class="na">Premium Support</li>
+                <li class="na">Code Adjustments</li>
+                <li>Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+              <h3>Monthly [CLAN BOT]</h3>
+              <h4><sup>€</sup>2<span> / Month</span></h4>
+              <ul>
+                <li>All Features</li>
+                <li>24hrs delivery</li>
+                <li>Setup Guides</li>
+                <li>Premium Support</li>
+                <li class="na">Code Adjustments</li>
+                <li>Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box featured" data-aos="zoom-in" data-aos-delay="300">
+              <h3>Yearly [CLAN BOT]</h3>
+              <span class="advanced">7 M. Free</span>
+              <h4><sup>€</sup>10<span> / year</span></h4>
+              <ul>
+                <li>All Features</li>
+                <li>24hrs delivery</li>
+                <li>Setup Guides</li>
+                <li>Premium Support</li>
+                <li>7 Months for free</li>
+                <li>Code Adjustments</li>
+                <li>Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="400">
+              <span class="advanced">Advanced</span>
+              <h3>Source Code [CLAN BOT]</h3>
+              <h4><sup>€</sup>75<span> / Once</span></h4>
+              <ul>
+                <li>All features</li>
+                <li>Delivery under 8hrs</li>
+                <li>Fully customizable</li>
+                <li>Hosting Guide</li>
+                <li>Host Recommendations</li>
+                <li>Coding Support</li>
+                <li class="na">Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section id="musicbots" class="pricing">
+      <div class="container">
+  
+        <div class="section-title" data-aos="fade-up">
+          <h2>Pricing - MUSIC BOTS</h2>
+          <p><img src="https://cdn.discordapp.com/emojis/867718814325669888.png" style="width: 50px;" > Pricing - MUSIC BOTS</p>
+        </div>
+  
+        <section id="faq" class="faq section-bg" style="margin:0;padding:0;text-align: left!important;">
+          <div class="container" style="margin:0;padding:0;text-align: left!important">
+            <div class="faq-list" style="text-align: left!important">
+              <ul>
+                <li data-aos="fade-up"style="text-align: left!important">
+                  <i class="bx bx-help-circle icon-help"style="text-align: left!important"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-clanbot"style="text-align: left!important">What are the Features of a MUSIC BOTS? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="faq-list-clanbot" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      
+                      <h4 style="font-size: large;">FEATURES</h4>
+                      This bot includes over 60 Music Commands <br>
+                      <br>
+  You can change the default Embed colors, images and texts, the botname, prefix, avatar and command texts (custom cmds, keywords, etc) <br>
+  
+  <br>
+  <h4 style="font-size: large;">Cool Features:</h4>
+  ✔️ Musicmix<br>
+  ✔️ Bassboost for more bass<br>
+  ✔️ Radio functions<br>
+  ✔️ Speed of a track is changeable<br>
+  <br>
+  ✔️ Latest Features (Threads, Stage Channels)<br>
+  ✔️ Slash Commands<br>
+  <br>
+  <br>
+  <a href="https://youtu.be/E0R7d8gS908">Tutorial Video</a>
+  
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+  
+        <div class="row" data-aos="fade-left">
+  
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              <h3>Free (Invites) [MUSIC BOTS]</h3>
+              <h4><sup>Invites</sup>5<span> / Once</span><span style="font-size: 10px;"> + Keep them</span></h4>
+              <ul>
+                <li>All Features</li>
+                <li>24hrs delivery</li>
+                <li>Setup Guides</li>
+                <li class="na">Premium Support</li>
+                <li class="na">Code Adjustments</li>
+                <li>Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+              <h3>Monthly [MUSIC BOTS]</h3>
+              <h4><sup>€</sup>1.5<span> / Month</span></h4>
+              <ul>
+                <li>All Features</li>
+                <li>24hrs delivery</li>
+                <li>Setup Guides</li>
+                <li>Premium Support</li>
+                <li class="na">Code Adjustments</li>
+                <li>Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box featured" data-aos="zoom-in" data-aos-delay="300">
+              <h3>Yearly [MUSIC BOTS]</h3>
+              <span class="advanced">7 M. Free</span>
+              <h4><sup>€</sup>7<span> / year</span></h4>
+              <ul>
+                <li>All Features</li>
+                <li>24hrs delivery</li>
+                <li>Setup Guides</li>
+                <li>Premium Support</li>
+                <li>7 Months for free</li>
+                <li>Code Adjustments</li>
+                <li>Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="400">
+              <span class="advanced">Advanced</span>
+              <h3>Source Code [MUSIC BOTS]</h3>
+              <h4><sup>€</sup>25<span> / Once</span></h4>
+              <ul>
+                <li>All features</li>
+                <li>Delivery under 8hrs</li>
+                <li>Fully customizable</li>
+                <li>Hosting Guide</li>
+                <li>Host Recommendations</li>
+                <li>Coding Support</li>
+                <li class="na">Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+    </section>
+    <section id="rythmclones" class="pricing">
+      <div class="container">
+  
+        <div class="section-title" data-aos="fade-up">
+          <h2>Pricing - RYTHM BOTS</h2>
+          <p><img src="https://cdn.discordapp.com/emojis/818116181494988810.png" style="width: 50px;" > Pricing - RYTHM BOTS</p>
+        </div>
+  
+        <section id="faq" class="faq section-bg" style="margin:0;padding:0;text-align: left!important;">
+          <div class="container" style="margin:0;padding:0;text-align: left!important">
+            <div class="faq-list" style="text-align: left!important">
+              <ul>
+                <li data-aos="fade-up"style="text-align: left!important">
+                  <i class="bx bx-help-circle icon-help"style="text-align: left!important"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-clanbot"style="text-align: left!important">What are the Features of a RYTHM BOTS? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="faq-list-clanbot" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      
+                      <h4 style="font-size: large;">FEATURES</h4>
+                      This bot includes over 60 Music Commands <br>
+                      <br>
+  You can change the default Embed colors, images and texts, the botname, prefix, avatar and command texts (custom cmds, keywords, etc) <br>
+  
+  <br>
+  <h4 style="font-size: large;">Cool Features:</h4>
+  ✔️ Play songs<br>
+  ✔️ Bassboost for more bass<br>
+  ✔️ Supports Soundclode<br>
+  ✔️ Speed of a track is changeable<br>
+  <br>
+  ✔️ Latest Features (Threads, Stage Channels)<br>
+  ✔️ Slash Commands<br>
+  <br>
+  <br>
+  <a href="https://youtu.be/E0R7d8gS908">Tutorial Video</a>
+  
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+  
+        <div class="row" data-aos="fade-left">
+  
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              <h3>Free (Invites) [RYTHM BOTS]</h3>
+              <h4><sup>Invites</sup>5<span> / Once</span><span style="font-size: 10px;"> + Keep them</span></h4>
+              <ul>
+                <li>All Features</li>
+                <li>24hrs delivery</li>
+                <li>Setup Guides</li>
+                <li class="na">Premium Support</li>
+                <li class="na">Code Adjustments</li>
+                <li>Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+              <h3>Monthly [RYTHM BOTS]</h3>
+              <h4><sup>€</sup>1.5<span> / Month</span></h4>
+              <ul>
+                <li>All Features</li>
+                <li>24hrs delivery</li>
+                <li>Setup Guides</li>
+                <li>Premium Support</li>
+                <li class="na">Code Adjustments</li>
+                <li>Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box featured" data-aos="zoom-in" data-aos-delay="300">
+              <h3>Yearly [RYTHM BOTS]</h3>
+              <span class="advanced">7 M. Free</span>
+              <h4><sup>€</sup>7<span> / year</span></h4>
+              <ul>
+                <li>All Features</li>
+                <li>24hrs delivery</li>
+                <li>Setup Guides</li>
+                <li>Premium Support</li>
+                <li>7 Months for free</li>
+                <li>Code Adjustments</li>
+                <li>Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="400">
+              <span class="advanced">Advanced</span>
+              <h3>Source Code [RYTHM BOTS]</h3>
+              <h4><sup>€</sup>20<span> / Once</span></h4>
+              <ul>
+                <li>All features</li>
+                <li>Delivery under 8hrs</li>
+                <li>Fully customizable</li>
+                <li>Hosting Guide</li>
+                <li>Host Recommendations</li>
+                <li>Coding Support</li>
+                <li class="na">Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+    </section>
+    <section id="waitingroombots" class="pricing">
+      <div class="container">
+  
+        <div class="section-title" data-aos="fade-up">
+          <h2>Pricing - WAITINGROOM BOTS</h2>
+          <p><img src="https://cdn.discordapp.com/emojis/867718814015684618.png" style="width: 50px;" > Pricing - WAITINGROOM BOTS</p>
+        </div>
+  
+        <section id="faq" class="faq section-bg" style="margin:0;padding:0;text-align: left!important;">
+          <div class="container" style="margin:0;padding:0;text-align: left!important">
+            <div class="faq-list" style="text-align: left!important">
+              <ul>
+                <li data-aos="fade-up"style="text-align: left!important">
+                  <i class="bx bx-help-circle icon-help"style="text-align: left!important"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-clanbot"style="text-align: left!important">What are the Features of a WAITINGROOM BOTS? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="faq-list-clanbot" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      
+                      <h4 style="font-size: large;">FEATURES</h4>
+                      This bot includes over 30 Music Commands <br>
+                      <br>
+  You can change the default Embed colors, images and texts, the botname, prefix, avatar and command texts (custom cmds, keywords, etc) <br>
+  
+  <br>
+  <h4 style="font-size: large;">Cool Features:</h4>
+  ✔️ Play songs<br>
+  ✔️ Play playlists<br>
+  ✔️ Change the volume<br>
+  ✔️ Includes over 150 radio stations<br>
+  ✔️ Setup custom radio stations<br>
+  <br>
+  ✔️ Latest Features (Threads, Stage Channels)<br>
+  ✔️ Slash Commands<br>
+  <br>
+  <br>
+  <a href="https://youtu.be/E0R7d8gS908">Tutorial Video</a>
+  
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+  
+        <div class="row" data-aos="fade-left">
+  
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              <h3>Free (Invites) [WAITINGROOM BOTS]</h3>
+              <h4><sup>Invites</sup>4<span> / Once</span><span style="font-size: 10px;"> + Keep them</span></h4>
+              <ul>
+                <li>All Features</li>
+                <li>24hrs delivery</li>
+                <li>Setup Guides</li>
+                <li class="na">Premium Support</li>
+                <li class="na">Code Adjustments</li>
+                <li>Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+              <h3>Monthly [WAITINGROOM BOTS]</h3>
+              <h4><sup>€</sup>1<span> / Month</span></h4>
+              <ul>
+                <li>All Features</li>
+                <li>24hrs delivery</li>
+                <li>Setup Guides</li>
+                <li>Premium Support</li>
+                <li class="na">Code Adjustments</li>
+                <li>Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box featured" data-aos="zoom-in" data-aos-delay="300">
+              <h3>Yearly [WAITINGROOM BOTS]</h3>
+              <span class="advanced">7 M. Free</span>
+              <h4><sup>€</sup>5<span> / year</span></h4>
+              <ul>
+                <li>All Features</li>
+                <li>24hrs delivery</li>
+                <li>Setup Guides</li>
+                <li>Premium Support</li>
+                <li>7 Months for free</li>
+                <li>Code Adjustments</li>
+                <li>Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="400">
+              <span class="advanced">Advanced</span>
+              <h3>Source Code [WAITINGROOM BOTS]</h3>
+              <h4><sup>€</sup>25<span> / Once</span></h4>
+              <ul>
+                <li>All features</li>
+                <li>Delivery under 8hrs</li>
+                <li>Fully customizable</li>
+                <li>Hosting Guide</li>
+                <li>Host Recommendations</li>
+                <li>Coding Support</li>
+                <li class="na">Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+    </section>
+    <section id="administrationbots" class="pricing">
+      <div class="container">
+  
+        <div class="section-title" data-aos="fade-up">
+          <h2>Pricing - ADMINISTRATOR BOTS</h2>
+          <p><img src="https://cdn.discordapp.com/emojis/834754808979128360.png" style="width: 50px;" > Pricing - ADMINISTRATOR BOTS</p>
+        </div>
+  
+        <section id="faq" class="faq section-bg" style="margin:0;padding:0;text-align: left!important;">
+          <div class="container" style="margin:0;padding:0;text-align: left!important">
+            <div class="faq-list" style="text-align: left!important">
+              <ul>
+                <li data-aos="fade-up"style="text-align: left!important">
+                  <i class="bx bx-help-circle icon-help"style="text-align: left!important"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-clanbot"style="text-align: left!important">What are the Features of a ADMINISTRATOR BOTS? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="faq-list-clanbot" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      
+  <h4 style="font-size: large;">FEATURES</h4>
+  The Whole Bots offers you more then <b>800 different Commands</b> (400 Slash Commands). <br>
+  This includes over <b>150+ Administration and Setup Commands</b> 📛 
+  <br>
+  You can disable the Command Categories, and customice the whole Bot Design. <br>
+  You can change the default Embed colors, images and texts, the botname, prefix, avatar and command texts (custom cmds, keywords, etc) <br>
+  <br>
+  You have a pretty secure partly Auto-Mod/Security System with the Captcha, antispam, anticaps and antilinks System! <br>
+  Soon there will be more Security stuff <br>
+  <br>
+  <h4 style="font-size: large;">Cool Features:</h4>
+  ✔️ 5x Applications, with Reactions<br>
+  ✔️ 3x advanced Ticket Systems<br>
+  ✔️ Advanced, fast Music System<br>
+  ✔️ Custom Welcome & Leave Images <br>
+  ✔️ Automatic Roster Systems ...!
+  <br>
+  ✔️ Multi Language Support<br>
+  ✔️ Latest Features (Threads, Stage Channels)<br>
+  ✔️ Slash Commands<br>
+  <br>
+  <br>
+  <a href="https://youtu.be/E0R7d8gS908">Tutorial Video</a>
+  
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+  
+        <div class="row" data-aos="fade-left">
+  
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              <h3>Free (Invites) [ADMINISTRATOR BOTS]</h3>
+              <h4><sup>Invites</sup>3<span> / Once</span><span style="font-size: 10px;"> + Keep them</span></h4>
+              <ul>
+                <li>All Features</li>
+                <li>24hrs delivery</li>
+                <li>Setup Guides</li>
+                <li class="na">Premium Support</li>
+                <li class="na">Code Adjustments</li>
+                <li>Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+              <h3>Monthly [ADMINISTRATOR BOTS]</h3>
+              <h4><sup>€</sup>0.5<span> / Month</span></h4>
+              <ul>
+                <li>All Features</li>
+                <li>24hrs delivery</li>
+                <li>Setup Guides</li>
+                <li>Premium Support</li>
+                <li class="na">Code Adjustments</li>
+                <li>Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box featured" data-aos="zoom-in" data-aos-delay="300">
+              <h3>Yearly [ADMINISTRATOR BOTS]</h3>
+              <span class="advanced">7 M. Free</span>
+              <h4><sup>€</sup>2<span> / year</span></h4>
+              <ul>
+                <li>All Features</li>
+                <li>24hrs delivery</li>
+                <li>Setup Guides</li>
+                <li>Premium Support</li>
+                <li>7 Months for free</li>
+                <li>Code Adjustments</li>
+                <li>Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="400">
+              <span class="advanced">Advanced</span>
+              <h3>Source Code [ADMINISTRATOR BOTS]</h3>
+              <h4><sup>€</sup>20<span> / Once</span></h4>
+              <ul>
+                <li>All features</li>
+                <li>Delivery under 8hrs</li>
+                <li>Fully customizable</li>
+                <li>Hosting Guide</li>
+                <li>Host Recommendations</li>
+                <li>Coding Support</li>
+                <li class="na">Payment Reminder</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://pay.milrato.eu" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+    </section>
+    <!-- End Pricing Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3><img src="https://imgur.com/RcykDiA.png" style="height: 25px;" > Milrato Development</h3>
+              <p class="pb-3"><em>Best Bots of 2021<br>Custom - & Public Bots</em><br>Since: 07.2019</p>
+              <p>
+                <button type="green" onclick="location.href='mailto:help@milrato.dev'"><i class="bi bi-envelope-open-fill"></i> Email us</button>
+                <button type="red" onclick="window.open('https://dc.milrato.dev', '_blank')"><i class="bi bi-discord"></i> Discord</button>
+              </p>
+              <div class="social-links mt-3">
+                <a href="https://dc.milrato.eu" class="twitter" target="_blank"><i class="bi bi-discord"></i></a>
+                <a href="https://twitter.milrato.eu" class="twitter" target="_blank"><i class="bi bi-youtube"></i></a>
+                <a href="https://youtube.milrato.eu" class="twitter"  target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="https://github.milrato.eu" class="twitter" target="_blank"><i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#team">Team Milrato</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#bots">Bots</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./shop.html#">Shop Bots Overview</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./sponsors.html#">Sponsors</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./impressum.html#">Legal Notice</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./impressum.html#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://dc.milrato.eu">Bot Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://dc.milrato.eu">Custom Bots</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://dc.milrato.eu">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://dc.milrato.eu">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://dc.milrato.eu">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://youtube.milrato.eu">Tutorials</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://dc.milrato.eu">Events</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Bots</h4>
+            <p>We are making high Quality, public, free to use <b>Discord Bots</b>, which can be found here!</p>
+            <button type="green" onclick="location.href='#bots'">See our Bots</button>
+            <button type="red" onclick="window.open('https://dc.milrato.dev', '_blank')"><i class="bi bi-discord"></i> Discord Server</button>
+            <br /><br /><h4>We also have a Discord List, for Bots & Servers</h4>
+            <p>Grow your Discord Bot, improve your Discord Server & gain Members! All of that and more, can be found on our <b>BOTLIST</b>
+            </p>
+            <button type="green" onclick="window.open('https://botlist.milrato.eu', '_blank')">Visit Botlist</button>
+            <button type="red" onclick="window.open('https://dc.milrato.dev', '_blank')"><i class="bi bi-discord"></i> Discord Server</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Milrato Development</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        Designed & Modified by <a style="color: #ff4756"target="_blank" href="https://dc.milrato.eu">Milrato Development</a>, Base by <a style="color: #ff4756" target="_blank" href="https://bootstrapmade.com/">Bootstrap</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="./assets/vendor/aos/aos.js"></script>
+  <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="./assets/vendor/purecounter/purecounter.js"></script>
+  <script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
