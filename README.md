@@ -37,6 +37,9 @@ We will Always Help You On Discord Server If We Can So Be Sure To Join To Get Fu
 
 # Credits
 > Website Coded By Tomato#6966
+
 > [Milrato Discord](https://discord.gg/milrato)
+
 > [Milrato Development](https://milrato.dev)
+
 > CSS by bootstrap & frame by bootstrapmade
