@@ -5,6 +5,10 @@
  | [YouTube Channel](https://youtube.com/amayori30)
 <img src="https://discordapp.com/api/guilds/913270958972866650/widget.png?style=banner2" alt="Amayori's Town"/>
 
+<img src="https://media.discordapp.net/attachments/913720353983975455/943774006975279124/standard.gif?style=banner2" alt="Amayori's Town"/>
+
+
+
 
 
 # About Us
