@@ -40,4 +40,4 @@ We will Always Help You On Discord Server If We Can So Be Sure To Join To Get Fu
 
 > [Milrato Development](https://milrato.dev)
 
-> [Milrato Development Discord Server](https://discord.gg/milrato)
+> CSS by bootstrap & frame by bootstrapmade
